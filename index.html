@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body style="margin: 0%; width: 100vw; height: 100vh;overflow: hidden;" onmousemove="mshow()">
+        <div class="w-10 h-10 bg-black absolute" style="margin: 0px 0px 0px 0px;" id="point"></div>
+        
+            
+            <div class="w-56 h-2 ml-[450px] bg-blue-500 rounded-full " style="transform-origin: 0% 50%" id="shoulder">
+                <p class="absolute pb-3 text-xl">θ</p>
+                <div class="w-56 h-2 bg-red-500 rounded-full " style="transform-origin: 100% 50%;" id="elbow">
+                <p class="rotate-180 pb-3 text-xl">φ</p>
+                </div>
+        </div>
+        <p id="cords" class="absolute bottom-10 "></p>
+
+
+
+<script src="main.js"></script>
+    </body>
+</html>
