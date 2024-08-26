@@ -1,6 +1,6 @@
 function mshow() {
     let event = window.event;
-    let x = event.clientX;
+    let x = event.clientX-450;
     let y = event.clientY;
 
     let dist = Math.sqrt((x) * (x) + y * y);
